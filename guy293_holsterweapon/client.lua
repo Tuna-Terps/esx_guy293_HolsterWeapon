@@ -22,12 +22,6 @@ Citizen.CreateThread(function()
 	while ESX.GetPlayerData().job == nil do
 		Citizen.Wait(10)
 	end
-	-- tuna terps
-	--[[
-	while ESX.GetPlayerData().skin == nil do
-		Citizen.Wait(10)
-	end
-	]]--
 	PlayerData = ESX.GetPlayerData()
 end)
 
@@ -75,98 +69,82 @@ RegisterNetEvent('esx:setJob')
 											local clothesSkin = {
 												['chain_1']  = 48,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
+											
 										elseif skin.chain_1 == 45  then
 											local clothesSkin = {
 												['chain_1']  = 46,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
+
 										elseif skin.chain_1 == 49  then
 											local clothesSkin = {
 												['chain_1']  = 50,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 88  then
 											local clothesSkin = {
 												['chain_1']  = 80,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 31  then
 											local clothesSkin = {
 												['chain_1']  = 30,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)	
 										elseif skin.chain_1 == 1  then
 											local clothesSkin = {
 												['chain_1']  = 3,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 8  then
 											local clothesSkin = {
 												['chain_1']  = 2,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 9  then
 											local clothesSkin = {
 												['chain_1']  = 2,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										end
-				
+										TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 									else
 										-- male 
 										if skin.chain_1 == 66  then
 											local clothesSkin = {
 												['chain_1']  = 67,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 68  then
 											local clothesSkin = {
 												['chain_1']  = 69,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 70  then
 											local clothesSkin = {
 												['chain_1']  = 71,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 125  then
 											local clothesSkin = {
 												['chain_1']  = 126,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 64  then
 											local clothesSkin = {
 												['chain_1']  = 65,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 62  then
 											local clothesSkin = {
 												['chain_1']  = 63,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 49  then
 											local clothesSkin = {
 												['chain_1']  = 50,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 9  then
 											local clothesSkin = {
 												['chain_1']  = 67,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 8  then
 											local clothesSkin = {
 												['chain_1']  = 67,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.tshirt_1 == 18  then
 											local clothesSkin = {
 												['chain_1']  = 20,   ['chain_2']  = 0,
-											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
-										
+											}										
 										end
+										TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 									end
 									-- end of tuna
 								end)
@@ -198,38 +176,32 @@ RegisterNetEvent('esx:setJob')
 											local clothesSkin = {
 												['chain_1']  = 47,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 46  then
 											local clothesSkin = {
 												['chain_1']  = 45,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 50  then
 											local clothesSkin = {
 												['chain_1']  = 49,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 89  then
 											local clothesSkin = {
 												['chain_1']  = 88,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 30  then
 											local clothesSkin = {
 												['chain_1']  = 31,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)	
 										elseif skin.chain_1 == 3  then
 											local clothesSkin = {
 												['chain_1']  = 1,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 2  then
 											local clothesSkin = {
 												['chain_1']  = 8,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)											
 										end
+										TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)											
 									else
 										--
 										--print(' ... :127')
@@ -238,55 +210,44 @@ RegisterNetEvent('esx:setJob')
 											local clothesSkin = {
 											['chain_1']  = 66,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 69  then
 											local clothesSkin = {
 											['chain_1']  = 68,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 71  then
 											local clothesSkin = {
 											['chain_1']  = 70,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 126  then
 											local clothesSkin = {
 											['chain_1']  = 125,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 65  then
 											local clothesSkin = {
 											['chain_1']  = 64,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 63  then
 											local clothesSkin = {
 											['chain_1']  = 62,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 50  then
 											local clothesSkin = {
 											['chain_1']  = 49,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 9  then
 											local clothesSkin = {
 											['chain_1']  = 9,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.chain_1 == 8  then
 											local clothesSkin = {
 											['chain_1']  = 67,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 										elseif skin.tshirt_1 == 20  then
 											local clothesSkin = {
 											['chain_1']  = 18,   ['chain_2']  = 0,
 											}
-											TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
-										
 										end
-
+										TriggerEvent('skinchanger:loadClothes', skin, clothesSkin)
 									end
 								end)
 									Citizen.Wait(60)
